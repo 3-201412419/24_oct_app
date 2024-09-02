@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <p>현대카드 무이자 이벤트 중</p>
+        {children}</body>
     </html>
   );
 }
